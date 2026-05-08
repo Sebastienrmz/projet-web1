@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos – Département Informatique EFREI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/logo-efrei.png" alt="Logo EFREI Paris Panthéon-Assas Université" class="logo-img">
+                <h1>Département <span>Informatique</span></h1>
+            </div>
+            <nav>
+                <button class="burger" id="burger-btn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="enseignants.html">Équipe enseignante</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="vie-etudiante.html">Vie étudiante</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banniere">
+            <h1 class="anim-entree"><span>À propos</span> du projet</h1>
+            <p class="anim-entree-2">Projet TI402 – Programmation Web – EFREI Paris</p>
+        </section>
+
+        <section class="section">
+
+            <div class="bloc-info anim-entree">
+                <h3>Le projet</h3>
+                <p>Ce site a été réalisé dans le cadre du cours <strong style="color:var(--cyan);">TI402 – Programmation Web</strong> en 2ème année de classe préparatoire intégrée à l'EFREI Paris. Il s'agit d'un site vitrine du département d'informatique, développé entièrement en <strong style="color:var(--cyan);">HTML5, CSS3 et JavaScript</strong>, sans aucun framework ni bibliothèque externe.</p>
+                <p style="margin-top:0.8rem;">Le site comprend 7 pages interconnectées, un design responsive pensé pour mobile et desktop, et plusieurs fonctionnalités JavaScript développées from scratch.</p>
+            </div>
+
+            <div class="section-titre" style="margin-top:3rem;">
+                <h2>L'équipe <span>du projet</span></h2>
+                <div class="ligne-deco"></div>
+            </div>
+
+            <div class="cartes-grid">
+                <div class="membre-card">
+                    <div class="membre-avatar">RD</div>
+                    <h3>Raphaël Derobien</h3>
+                    <p class="role">Développeur front-end &amp; Design</p>
+                    <p>Raphaël a pris en charge la conception du design général : choix des couleurs, mise en page, animations CSS et responsive design. Il a développé les pages Accueil, Projets et Vie étudiante.</p>
+                    <div class="techno-liste">
+                        <span class="techno-tag">HTML5</span>
+                        <span class="techno-tag">CSS3</span>
+                        <span class="techno-tag">Responsive</span>
+                    </div>
+                </div>
+                <div class="membre-card">
+                    <div class="membre-avatar">SR</div>
+                    <h3>Sebastien Ramirez</h3>
+                    <p class="role">Développeur JavaScript &amp; Contenu</p>
+                    <p>Sebastien s'est occupé des fonctionnalités JavaScript : carrousel, filtre enseignants, validation du formulaire et menu burger mobile. Il a rédigé le contenu des pages Formations, Enseignants, Contact et À propos.</p>
+                    <div class="techno-liste">
+                        <span class="techno-tag">JavaScript</span>
+                        <span class="techno-tag">Formulaires</span>
+                        <span class="techno-tag">DOM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloc-info" style="margin-top:3rem;">
+                <h3>Choix de design</h3>
+                <ul>
+                    <li>Palette : bleu nuit (#0d1b2a), cyan (#00b4d8), violet (#7b2d8b)</li>
+                    <li>Cartes avec <code style="color:var(--cyan);">border-radius</code> et <code style="color:var(--cyan);">box-shadow</code>, hover avec translation verticale</li>
+                    <li>Header sticky pour garder la navigation accessible</li>
+                    <li>Dégradés CSS sur les bannières</li>
+                    <li>Animations d'entrée via <code style="color:var(--cyan);">@keyframes glisser-bas</code></li>
+                    <li>Ruban "PROJET DU MOIS" via <code style="color:var(--cyan)">::before</code> positionné en absolu</li>
+                </ul>
+            </div>
+
+            <div class="bloc-info">
+                <h3>Fonctionnalités JavaScript</h3>
+                <ul>
+                    <li><strong style="color:var(--cyan);">Menu burger</strong> : <code>classList.toggle('ouverte')</code> sur la nav</li>
+                    <li><strong style="color:var(--cyan);">Lien actif</strong> : comparaison <code>window.location.pathname</code> avec les <code>href</code></li>
+                    <li><strong style="color:var(--cyan);">Carrousel</strong> : <code>transform: translateX</code> + <code>setInterval</code> 4 secondes</li>
+                    <li><strong style="color:var(--cyan);">Toast</strong> : apparition à 0,8s, disparition à 5s</li>
+                    <li><strong style="color:var(--cyan);">Filtre enseignants</strong> : attributs <code>data-specialite</code> + <code>display:none</code></li>
+                    <li><strong style="color:var(--cyan);">Voir plus/moins</strong> : <code>classList.toggle('visible')</code> + animation <code>fadeIn</code></li>
+                    <li><strong style="color:var(--cyan);">Validation formulaire</strong> : vérification champs vides et présence du @</li>
+                </ul>
+            </div>
+
+            <div class="bloc-info">
+                <h3>Arborescence du projet</h3>
+                <pre style="color:var(--gris-texte);font-size:0.88rem;line-height:1.8;overflow-x:auto;">
+efrei-info/
+├── index.html
+├── formations.html
+├── enseignants.html
+├── projets.html
+├── vie-etudiante.html
+├── contact.html
+├── apropos.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+└── img/
+    └── logo-efrei.png
+                </pre>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h3>EFREI Informatique</h3>
+                <p>Département d'informatique de l'EFREI Paris, membre de Paris Panthéon-Assas Université.</p>
+                <p style="margin-top:0.5rem;">30-32 Avenue de la République<br>94800 Villejuif, France</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="enseignants.html">Équipe enseignante</a>
+                <a href="projets.html">Projets étudiants</a>
+                <a href="vie-etudiante.html">Vie étudiante</a>
+                <a href="contact.html">Contact</a>
+                <a href="apropos.html">À propos</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>info-dept@efrei.fr</p>
+                <p>01 23 45 67 89</p>
+                <p>Lun–Ven : 9h00–18h00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EFREI Paris – Département Informatique. Projet TI402 – Raphaël Derobien &amp; Sebastien Ramirez.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
