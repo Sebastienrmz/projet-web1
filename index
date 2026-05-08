@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Département Informatique - EFREI Paris</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/logo-efrei.png" alt="Logo EFREI Paris Panthéon-Assas Université" class="logo-img">
+                <h1>Département <span>Informatique</span></h1>
+            </div>
+            <nav>
+                <button class="burger" id="burger-btn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="enseignants.html">Équipe enseignante</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="vie-etudiante.html">Vie étudiante</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banniere">
+            <h1 class="anim-entree">Bienvenue au <span>Département Informatique</span> de l'EFREI</h1>
+            <p class="anim-entree-2">Formez-vous aux métiers du numérique dans un environnement innovant, au cœur de Paris Panthéon-Assas Université.</p>
+            <div class="banniere-btns anim-entree-3">
+                <a href="formations.html" class="btn btn-primary">Découvrir les formations</a>
+                <a href="contact.html" class="btn btn-outline">Nous contacter</a>
+            </div>
+        </section>
+
+        <div class="chiffres">
+            <div class="chiffre-item"><span class="nombre">450+</span><span class="label">Étudiants</span></div>
+            <div class="chiffre-item"><span class="nombre">120+</span><span class="label">Projets réalisés</span></div>
+            <div class="chiffre-item"><span class="nombre">32</span><span class="label">Enseignants</span></div>
+            <div class="chiffre-item"><span class="nombre">18</span><span class="label">Matières</span></div>
+        </div>
+
+        <section class="carrousel-section">
+            <div class="section-titre">
+                <h2>À la <span>une</span></h2>
+                <div class="ligne-deco"></div>
+            </div>
+            <div class="carrousel-wrapper">
+                <div class="carrousel-inner" id="carrousel-inner">
+                    <div class="carrousel-slide">
+                        <h3>Hackathon EFREI 2025</h3>
+                        <p>Nos étudiants ont décroché la 2ème place au hackathon inter-écoles avec leur projet de gestion intelligente de campus.</p>
+                    </div>
+                    <div class="carrousel-slide">
+                        <h3>Nouveau cours : Intelligence Artificielle</h3>
+                        <p>Dès cette année, un module complet sur le machine learning et les réseaux de neurones est intégré au programme de 2ème année.</p>
+                    </div>
+                    <div class="carrousel-slide">
+                        <h3>Partenariats entreprises</h3>
+                        <p>L'EFREI renforce ses liens avec des entreprises tech de premier plan pour offrir plus de stages et d'alternances à nos étudiants.</p>
+                    </div>
+                    <div class="carrousel-slide">
+                        <h3>Taux d'insertion : 97%</h3>
+                        <p>Nos diplômés trouvent un emploi dans les 6 mois suivant l'obtention de leur diplôme.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carrousel-controls">
+                <button class="btn-carrousel" id="btn-prev" aria-label="Précédent">&#8249;</button>
+                <div class="indicateurs" id="indicateurs"></div>
+                <button class="btn-carrousel" id="btn-next" aria-label="Suivant">&#8250;</button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-titre">
+                <h2>Pourquoi choisir <span>l'Informatique</span> ?</h2>
+                <div class="ligne-deco"></div>
+            </div>
+            <div class="pourquoi-grid">
+                <div class="pourquoi-item"><h3>Des débouchés partout</h3><p>Finance, santé, jeux vidéo, cybersécurité... l'informatique est présente dans tous les secteurs.</p></div>
+                <div class="pourquoi-item"><h3>Créer des choses concrètes</h3><p>Développer des applications, résoudre des problèmes réels : chaque projet est une victoire.</p></div>
+                <div class="pourquoi-item"><h3>Développer sa logique</h3><p>La programmation entraîne la réflexion logique et la rigueur, utiles dans tous les domaines.</p></div>
+                <div class="pourquoi-item"><h3>Travailler partout</h3><p>Les compétences numériques s'exportent dans le monde entier.</p></div>
+                <div class="pourquoi-item"><h3>Salaires attractifs</h3><p>Les profils techniques sont très demandés, avec des rémunérations compétitives dès le départ.</p></div>
+                <div class="pourquoi-item"><h3>Sécurité de l'emploi</h3><p>La transformation numérique est permanente. Les informaticiens ont une stabilité rare.</p></div>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top:0;">
+            <div class="section-titre">
+                <h2>Explorer <span>le département</span></h2>
+                <div class="ligne-deco"></div>
+            </div>
+            <div class="nav-pages">
+                <a href="formations.html" class="btn btn-primary">Nos formations</a>
+                <a href="enseignants.html" class="btn btn-outline">L'équipe enseignante</a>
+                <a href="projets.html" class="btn btn-violet">Les projets étudiants</a>
+                <a href="vie-etudiante.html" class="btn btn-outline">Vie étudiante</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h3>EFREI Informatique</h3>
+                <p>Département d'informatique de l'EFREI Paris, membre de Paris Panthéon-Assas Université.</p>
+                <p style="margin-top:0.5rem;">30-32 Avenue de la République<br>94800 Villejuif, France</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="enseignants.html">Équipe enseignante</a>
+                <a href="projets.html">Projets étudiants</a>
+                <a href="vie-etudiante.html">Vie étudiante</a>
+                <a href="contact.html">Contact</a>
+                <a href="apropos.html">À propos</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>info-dept@efrei.fr</p>
+                <p>01 23 45 67 89</p>
+                <p>Lun–Ven : 9h00–18h00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EFREI Paris – Département Informatique. Projet TI402 – Raphaël Derobien &amp; Sebastien Ramirez.</p>
+        </div>
+    </footer>
+
+    <div id="toast" role="alert">
+        <p>Bienvenue sur le site du <span>Département Informatique</span> de l'EFREI !</p>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
