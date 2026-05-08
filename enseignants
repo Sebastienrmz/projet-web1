@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Équipe enseignante – Département Informatique EFREI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/logo-efrei.png" alt="Logo EFREI Paris Panthéon-Assas Université" class="logo-img">
+                <h1>Département <span>Informatique</span></h1>
+            </div>
+            <nav>
+                <button class="burger" id="burger-btn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="enseignants.html">Équipe enseignante</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="vie-etudiante.html">Vie étudiante</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banniere">
+            <h1 class="anim-entree">L'équipe <span>enseignante</span></h1>
+            <p class="anim-entree-2">Des professeurs passionnés et experts dans leur domaine, dédiés à votre réussite.</p>
+        </section>
+
+        <section class="section">
+            <div class="section-titre">
+                <h2>Nos <span>enseignants</span></h2>
+                <div class="ligne-deco"></div>
+                <p>Filtrez par spécialité pour trouver l'enseignant qui vous intéresse.</p>
+            </div>
+
+            <div class="filtre-barre" role="group" aria-label="Filtrer par spécialité">
+                <button class="btn-filtre actif" data-filtre="tous">Tous</button>
+                <button class="btn-filtre" data-filtre="ia">Données &amp; IA</button>
+                <button class="btn-filtre" data-filtre="securite">Cybersécurité</button>
+                <button class="btn-filtre" data-filtre="reseaux">Réseaux</button>
+                <button class="btn-filtre" data-filtre="programmation">Programmation</button>
+                <button class="btn-filtre" data-filtre="maths">Mathématiques</button>
+                <button class="btn-filtre" data-filtre="recherche">Recherche</button>
+            </div>
+
+            <div class="cartes-grid" id="grille-enseignants">
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Gabis-Asma-683x1024.jpg" alt="Photo de Asma Gabis" class="avatar-photo">
+                    <h3>Asma Gabis</h3>
+                    <p class="domaine">Responsable du département informatique</p>
+                    <span class="matiere">Enseignante-chercheuse – Informatique</span>
+                    <p>Diplôme d'ingénieur d'État en informatique (ESI, 2006), Magistère en 2010, Doctorat en 2021. Rejoint l'Efrei en 2022.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/DSC03693_Charrad-683x1024.jpg" alt="Photo de Malika Charrad" class="avatar-photo">
+                    <h3>Malika Charrad</h3>
+                    <p class="domaine">Données et Intelligence Artificielle</p>
+                    <span class="matiere">Enseignante-Chercheuse</span>
+                    <p>Diplôme d'ingénieur ENSI (2003), master de recherche (2006), thèse (2010) co-encadrée CNAM/ENSI. Rejoint l'Efrei en 2020.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/2753-Djallel-Dilmi-1-819x1024.jpg" alt="Photo de Djallel Dilmi" class="avatar-photo">
+                    <h3>Djallel Dilmi</h3>
+                    <p class="domaine">Données et IA – Big Data &amp; Machine Learning</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Spécialisé en Deep Learning et IA, développement de nouvelles architectures comme les mécanismes d'attention. Rejoint l'Efrei en 2023.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/GHASSANY-Mohamad_2-690x1024.jpg" alt="Photo de Mohamad Ghassany" class="avatar-photo">
+                    <h3>Mohamad Ghassany</h3>
+                    <p class="domaine">Données et IA – Manager cycle M</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Master en Mathématiques Appliquées &amp; Statistiques (Grenoble Alpes), doctorat en 2013 (Université Paris 13). Rejoint l'Efrei en 2021.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Khodor-Hammoud-819x1024.jpg" alt="Photo de Khodor Hammoud" class="avatar-photo">
+                    <h3>Khodor Hammoud</h3>
+                    <p class="domaine">Données et IA – Data Engineering</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat en 2021 à l'Université de Paris-Cité. Commence sa carrière à l'Efrei en février 2020 pendant son doctorat.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/10/Photos-staff-9-1024x701.png" alt="Photo de Ilyes Jenhani" class="avatar-photo">
+                    <h3>Ilyes Jenhani</h3>
+                    <p class="domaine">Données et IA – Software Engineering</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat en Informatique en 2010, cotutelle Université d'Artois / Université de Tunis. Rejoint l'Efrei en 2024.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.ef
