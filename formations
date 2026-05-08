@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formations – Département Informatique EFREI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/logo-efrei.png" alt="Logo EFREI Paris Panthéon-Assas Université" class="logo-img">
+                <h1>Département <span>Informatique</span></h1>
+            </div>
+            <nav>
+                <button class="burger" id="burger-btn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="enseignants.html">Équipe enseignante</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="vie-etudiante.html">Vie étudiante</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banniere">
+            <h1 class="anim-entree">Cours &amp; <span>Formations</span></h1>
+            <p class="anim-entree-2">Un programme complet pour maîtriser les fondamentaux et les technologies du numérique.</p>
+        </section>
+
+        <section class="section">
+            <div class="section-titre">
+                <h2>Les <span>matières principales</span></h2>
+                <div class="ligne-deco"></div>
+                <p>Découvrez les disciplines enseignées au département informatique.</p>
+            </div>
+            <div class="cartes-grid">
+                <div class="carte">
+                    <h3>Programmation</h3>
+                    <p>Python, C, Java — apprendre à coder des algorithmes, comprendre la logique de programmation et créer des applications fonctionnelles.</p>
+                </div>
+                <div class="carte">
+                    <h3>Développement Web</h3>
+                    <p>HTML, CSS, JavaScript — concevoir des sites et applications web modernes, responsives et accessibles.</p>
+                </div>
+                <div class="carte">
+                    <h3>Algorithmique</h3>
+                    <p>Tris, arbres, graphes, complexité — apprendre à concevoir des solutions efficaces à des problèmes complexes.</p>
+                </div>
+                <div class="carte">
+                    <h3>Bases de données</h3>
+                    <p>SQL, modélisation relationnelle, requêtes complexes — stocker et manipuler des données de façon structurée et fiable.</p>
+                </div>
+                <div class="carte">
+                    <h3>Réseaux informatiques</h3>
+                    <p>Protocoles TCP/IP, routage, sécurité réseau — comprendre comment fonctionnent les communications entre machines.</p>
+                </div>
+                <div class="carte">
+                    <h3>Cybersécurité</h3>
+                    <p>Chiffrement, attaques et défenses, bonnes pratiques — protéger les systèmes et données sensibles des menaces informatiques.</p>
+                </div>
+                <div class="carte">
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Machine learning, réseaux de neurones, traitement de données — introduire les bases de l'IA et ses applications concrètes.</p>
+                </div>
+                <div class="carte">
+                    <h3>Systèmes d'exploitation</h3>
+                    <p>Linux, gestion de processus, mémoire — comprendre comment un ordinateur gère ses ressources en profondeur.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top:0;">
+            <div class="section-titre">
+                <h2>Tableau <span>récapitulatif</span></h2>
+                <div class="ligne-deco"></div>
+            </div>
+            <div class="tableau-wrapper">
+                <table>
+                    <caption>Programme pédagogique – Département Informatique EFREI</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Matière</th>
+                            <th scope="col">Compétences développées</th>
+                            <th scope="col">Exemple de projet</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programmation (Python / C)</td>
+                            <td>Logique algorithmique, structures de données, débogage</td>
+                            <td>Mini-jeu en console, calculatrice avancée</td>
+                        </tr>
+                        <tr>
+                            <td>Développement Web</td>
+                            <td>HTML / CSS / JavaScript, responsive design, formulaires</td>
+                            <td>Site vitrine, portfolio étudiant</td>
+                        </tr>
+                        <tr>
+                            <td>Algorithmique</td>
+                            <td>Complexité, tris, recherche, graphes</td>
+                            <td>Visualiseur d'algorithmes de tri</td>
+                        </tr>
+                        <tr>
+                            <td>Bases de données</td>
+                            <td>Modélisation, requêtes SQL, normalisation</td>
+                            <td>Système de gestion d'une bibliothèque</td>
+                        </tr>
+                        <tr>
+                            <td>Réseaux informatiques</td>
+                            <td>Modèle OSI, protocoles, configuration réseau</td>
+                            <td>Simulation réseau local sous Cisco Packet Tracer</td>
+                        </tr>
+                        <tr>
+                            <td>Cybersécurité</td>
+                            <td>Cryptographie, analyse de vulnérabilités, pare-feu</td>
+                            <td>CTF (Capture the Flag) interne</td>
+                        </tr>
+                        <tr>
+                            <td>Intelligence Artificielle</td>
+                            <td>Apprentissage supervisé, scikit-learn, évaluation de modèles</td>
+                            <td>Classificateur d'images simple, chatbot</td>
+                        </tr>
+                        <tr>
+                            <td>Systèmes d'exploitation</td>
+                            <td>Shell Linux, scripts Bash, gestion de processus</td>
+                            <td>Script d'automatisation système</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h3>EFREI Informatique</h3>
+                <p>Département d'informatique de l'EFREI Paris, membre de Paris Panthéon-Assas Université.</p>
+                <p style="margin-top:0.5rem;">30-32 Avenue de la République<br>94800 Villejuif, France</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="enseignants.html">Équipe enseignante</a>
+                <a href="projets.html">Projets étudiants</a>
+                <a href="vie-etudiante.html">Vie étudiante</a>
+                <a href="contact.html">Contact</a>
+                <a href="apropos.html">À propos</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>info-dept@efrei.fr</p>
+                <p>01 23 45 67 89</p>
+                <p>Lun–Ven : 9h00–18h00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EFREI Paris – Département Informatique. Projet TI402 – Raphaël Derobien &amp; Sebastien Ramirez.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
