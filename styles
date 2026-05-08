@@ -101,3 +101,34 @@ nav ul li a:hover, nav ul li a.active { background: rgba(0,180,216,0.2); color: 
     from { opacity: 0; transform: translateY(-5px); }
     to   { opacity: 1; transform: translateY(0); }
 }
+
+
+@media (max-width: 900px) {
+    .chiffres { grid-template-columns: repeat(2, 1fr); }
+    .footer-inner { grid-template-columns: 1fr 1fr; }
+    .contact-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px; left: 0; right: 0;
+        background: var(--bleu-profond);
+        padding: 1rem;
+        border-bottom: 2px solid var(--cyan);
+    }
+    nav ul.ouverte { display: flex; }
+    .burger { display: flex; }
+    header { position: relative; }
+    .banniere h1 { font-size: 2rem; }
+    .footer-inner { grid-template-columns: 1fr; }
+    .form-ligne { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+    .banniere h1 { font-size: 1.7rem; }
+    .banniere-btns { flex-direction: column; align-items: center; }
+}
+
