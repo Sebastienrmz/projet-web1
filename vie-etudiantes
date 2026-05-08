@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vie étudiante – Département Informatique EFREI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/logo-efrei.png" alt="Logo EFREI Paris Panthéon-Assas Université" class="logo-img">
+                <h1>Département <span>Informatique</span></h1>
+            </div>
+            <nav>
+                <button class="burger" id="burger-btn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="enseignants.html">Équipe enseignante</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="vie-etudiante.html">Vie étudiante</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banniere">
+            <h1 class="anim-entree">Vie <span>étudiante</span></h1>
+            <p class="anim-entree-2">L'informatique ne se passe pas que en cours. Découvrez tout ce que le département vous propose.</p>
+        </section>
+
+        <section class="section">
+            <div class="section-titre">
+                <h2>Clubs &amp; <span>activités</span></h2>
+                <div class="ligne-deco"></div>
+            </div>
+            <div class="cartes-grid">
+                <div class="carte">
+                    <h3>Club Code</h3>
+                    <p>Retrouvez-vous chaque semaine pour coder des petits projets fun, résoudre des algorithmes et partager vos découvertes. Ouvert à tous niveaux.</p>
+                </div>
+                <div class="carte">
+                    <h3>Club Sécurité (CTF)</h3>
+                    <p>Participez à des Capture The Flag, apprenez les bases de l'ethical hacking et préparez-vous à des compétitions nationales.</p>
+                </div>
+                <div class="carte">
+                    <h3>Club IA &amp; Data</h3>
+                    <p>Explorez le machine learning, la data science et les outils IA du moment. Des projets pratiques chaque mois.</p>
+                </div>
+                <div class="carte">
+                    <h3>Club GameDev</h3>
+                    <p>Concevez des jeux vidéo de A à Z en Python ou JavaScript. Des game jams internes sont organisées chaque trimestre.</p>
+                </div>
+                <div class="carte">
+                    <h3>Club Web</h3>
+                    <p>Créez des sites, partagez des ressources sur les dernières technologies web, et participez à des mini-projets collaboratifs.</p>
+                </div>
+                <div class="carte">
+                    <h3>Entraide entre étudiants</h3>
+                    <p>Un système de tutorat informel entre années. Les 2ème et 3ème années aident les nouveaux arrivants en TD et sur leurs projets.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top:0;">
+            <div class="section-titre">
+                <h2>Hackathons &amp; <span>Conférences</span></h2>
+                <div class="ligne-deco"></div>
+            </div>
+            <div class="cartes-grid">
+                <div class="carte">
+                    <h3>Hackathon annuel EFREI</h3>
+                    <p>48h de code intensif en équipe sur un thème surprise. Avec des prix et des jurés issus du monde professionnel.</p>
+                </div>
+                <div class="carte">
+                    <h3>Conférences Tech</h3>
+                    <p>Des intervenants extérieurs (ingénieurs, startuppers, chercheurs) viennent partager leur expérience professionnelle.</p>
+                </div>
+                <div class="carte">
+                    <h3>Ateliers pratiques</h3>
+                    <p>Des workshops sur Git, Docker, API REST, débogage Python... Des sessions courtes mais très utiles au quotidien.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top:0;">
+            <div class="section-titre">
+                <h2>Agenda <span>des prochains événements</span></h2>
+                <div class="ligne-deco"></div>
+            </div>
+            <div class="frise">
+                <div class="frise-item">
+                    <p class="date-event">15 janvier 2025</p>
+                    <h3>Atelier Git &amp; GitHub</h3>
+                    <p>Branches, pull requests, merge conflicts. Salle B204 — 14h à 16h.</p>
+                </div>
+                <div class="frise-item">
+                    <p class="date-event">28 janvier 2025</p>
+                    <h3>Conférence "Métiers de la cybersécurité"</h3>
+                    <p>Intervention de deux ingénieurs sécurité d'une grande entreprise bancaire. Amphi A1 — 18h à 20h.</p>
+                </div>
+                <div class="frise-item">
+                    <p class="date-event">8–9 février 2025</p>
+                    <h3>Hackathon inter-promo EFREI</h3>
+                    <p>48h pour coder un projet autour du thème "Ville intelligente". Inscription avant le 1er février.</p>
+                </div>
+                <div class="frise-item">
+                    <p class="date-event">20 février 2025</p>
+                    <h3>Atelier Machine Learning débutant</h3>
+                    <p>Introduction à scikit-learn. Salle C101 — 13h à 15h. Apportez votre ordinateur.</p>
+                </div>
+                <div class="frise-item">
+                    <p class="date-event">5 mars 2025</p>
+                    <h3>Game Jam interne – 48h</h3>
+                    <p>Club GameDev : créez un jeu sur le thème "Boucle temporelle". Inscriptions ouvertes à tous.</p>
+                </div>
+                <div class="frise-item">
+                    <p class="date-event">18 mars 2025</p>
+                    <h3>Forum des stages &amp; alternances</h3>
+                    <p>Des entreprises partenaires à votre rencontre. Préparez votre CV ! Hall principal — 10h à 17h.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h3>EFREI Informatique</h3>
+                <p>Département d'informatique de l'EFREI Paris, membre de Paris Panthéon-Assas Université.</p>
+                <p style="margin-top:0.5rem;">30-32 Avenue de la République<br>94800 Villejuif, France</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="enseignants.html">Équipe enseignante</a>
+                <a href="projets.html">Projets étudiants</a>
+                <a href="vie-etudiante.html">Vie étudiante</a>
+                <a href="contact.html">Contact</a>
+                <a href="apropos.html">À propos</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>info-dept@efrei.fr</p>
+                <p>01 23 45 67 89</p>
+                <p>Lun–Ven : 9h00–18h00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EFREI Paris – Département Informatique. Projet TI402 – Raphaël Derobien &amp; Sebastien Ramirez.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
