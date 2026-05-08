@@ -104,4 +104,294 @@
                 </article>
 
                 <article class="carte-enseignant" data-specialite="ia">
-                    <img src="https://www.ef
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/HQ1A3112_jean-charles_huet-683x1024.jpg" alt="Photo de Jean-Charles Huet" class="avatar-photo">
+                    <h3>Jean-Charles Huet</h3>
+                    <p class="domaine">Données et IA – Logiciel &amp; SI</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat en 2011 à l'Université Blaise Pascal, Clermont-Ferrand II. Ingénieur hospitalier au CHU pendant sa thèse. Rejoint l'Efrei en 2018.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/10/Photos-staff-12-1024x701.png" alt="Photo de Daniel Mai" class="avatar-photo">
+                    <h3>Daniel Mai</h3>
+                    <p class="domaine">Données et Intelligence Artificielle</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Master Gamagora (Lyon 2, 2018), master RVSI (Paris-Saclay, 2019). Doctorat à Paris-Saclay en 2024, rejoint l'Efrei la même année.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/3192-Mondher-Maddouri-819x1024.jpg" alt="Photo de Mondher Maddouri" class="avatar-photo">
+                    <h3>Mondher Maddouri</h3>
+                    <p class="domaine">Données &amp; Intelligence Artificielle</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Enseignant-chercheur de l'axe de recherche « Données &amp; Intelligence Artificielle ».</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Mano-Joseph_large-660x1024.jpg" alt="Photo de Mano Joseph Mathew" class="avatar-photo">
+                    <h3>Mano Joseph Mathew</h3>
+                    <p class="domaine">Données et IA – Bio-informatique</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat en microbiologie et maladies infectieuses (Aix-Marseille, 2013). Responsable majeure Bio-informatique. Rejoint l'Efrei en 2019.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="ia">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2026/03/image.jpg" alt="Photo de Salim Nahle" class="avatar-photo">
+                    <h3>Salim Nahle</h3>
+                    <p class="domaine">Responsable Data &amp; IA</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Ingénieur en télécommunications (Univ. Libanaise, 2005), doctorat à l'Université Pierre et Marie Curie (2009). ATER à l'Université Paris 13.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="securite">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/721_Boussad_AIT-SALEM-683x1024.jpg" alt="Photo de Boussad Ait Salem" class="avatar-photo">
+                    <h3>Boussad Ait Salem</h3>
+                    <p class="domaine">Cybersécurité – Responsable majeure</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat en 2011 (Univ. de Limoges, équipe PICC). Postdoctorat à Orange Labs. Rejoint l'Efrei en 2020.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="securite">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Benoit-CHARROUX-R3-1-1024x1024.jpg" alt="Photo de Benoit Charroux" class="avatar-photo">
+                    <h3>Benoit Charroux</h3>
+                    <p class="domaine">Sécurité, Résilience et Confiance Numérique</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>DEA en électronique (Univ. Paris XI), thèse à l'ENSEA. Travaux en traitement d'images et reconnaissance de formes. Rejoint l'Efrei en 2011.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="securite">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/10/Ralph-BOU-NADER-1024x1024.jpg" alt="Photo de Ralph Bou Nader" class="avatar-photo">
+                    <h3>Ralph Bou Nader</h3>
+                    <p class="domaine">Sécurité &amp; Data Engineering</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Diplômé en ingénierie informatique (USEK, 2018). Doctorat à l'Institut Polytechnique de Paris en 2024. Rejoint l'Efrei en 2024.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="securite">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/10/Johannes-Gomolka-1024x1024.jpg" alt="Photo de Johannes Gomolka" class="avatar-photo">
+                    <h3>Johannes Gomolka</h3>
+                    <p class="domaine">Sécurité – IT for Finance</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat en sciences politiques et informatique de gestion (Univ. Potsdam, 2011). Dirige la majeure IT for Finance depuis 2018.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="securite">
+                    <div class="avatar">LH</div>
+                    <h3>Lazhar Hamel</h3>
+                    <p class="domaine">Sécurité, Résilience et Confiance Numérique</p>
+                    <span class="matiere">Enseignant-Chercheur</span>
+                    <p>Doctorat en informatique en 2018 (Univ. de Sfax, Tunisie). Thèse sur la vérification formelle des architectures logicielles.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="reseaux">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/2301_-Youssef-AIT-EL-MAHJOUB.jpg" alt="Photo de Youssef Ait El Mahjoub" class="avatar-photo">
+                    <h3>Youssef Ait El Mahjoub</h3>
+                    <p class="domaine">Réseaux de Communication – Responsable filière IT</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Diplômé d'un Master AMIS à l'UVSQ en 2016, soutient sa thèse en 2021 et rejoint l'Efrei en 2022.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="reseaux">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Harzi-Marwa-683x1024.jpg" alt="Photo de Marwa Harzi" class="avatar-photo">
+                    <h3>Marwa Harzi</h3>
+                    <p class="domaine">Réseaux de communication – Cycle Ingénieur</p>
+                    <span class="matiere">Enseignante-chercheuse</span>
+                    <p>Thèse de doctorat en 2018, co-tutelle CRIL (Univ. d'Artois) et LARODEC (ISG Tunis). Rejoint l'Efrei en 2021.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="reseaux">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/3195-Mohamed-Hamidi-819x1024.jpg" alt="Photo de Mohamed Hamidi" class="avatar-photo">
+                    <h3>Mohamed Hamidi</h3>
+                    <p class="domaine">Vision et Sécurité Multimédia</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat en 2019 (Univ. Med V, Rabat) en sécurité multimédia et vision par ordinateur. Collaboration avec le LIB et PRISME.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="reseaux">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/655-Mourad-Kmimech-683x1024.jpg" alt="Photo de Mourad Kmimech" class="avatar-photo">
+                    <h3>Mourad Kmimech</h3>
+                    <p class="domaine">Réseaux et Informatique</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>DEA à l'École d'ingénieurs de Sfax (2003), thèse à l'Université de Pau (LIUPPA) en 2010. Rejoint l'Efrei en 2024.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="reseaux">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/3048-Cherifa-BEN-KHELIL-819x1024.jpg" alt="Photo de Cherifa Ben Khelil" class="avatar-photo">
+                    <h3>Cherifa Ben Khelil</h3>
+                    <p class="domaine">Informatique</p>
+                    <span class="matiere">Enseignante-chercheuse</span>
+                    <p>Doctorat en 2019, cotutelle ENSI de la Manouba (Tunisie) et Université d'Orléans (LIFO). Rejoint l'Efrei en 2024.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="programmation">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/12/Flasque-Nicolas.jpg" alt="Photo de Nicolas Flasque" class="avatar-photo">
+                    <h3>Nicolas Flasque</h3>
+                    <p class="domaine">Programmation – Ingénieur Pédagogique</p>
+                    <span class="matiere">Python / C / Mathématiques appliquées</span>
+                    <p>Ingénieur et Docteur en informatique, enseigne à l'Efrei depuis plus de 20 ans. Spécialisé en programmation Python et C.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="programmation">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/12/jacques-augustin.jpg" alt="Photo de Jacques Augustin" class="avatar-photo">
+                    <h3>Jacques Augustin</h3>
+                    <p class="domaine">Directeur majeure Software Engineering</p>
+                    <span class="matiere">Enseignant – Projets IT</span>
+                    <p>Diplômé de l'UNSA et de Skema. Passionné de delivery de projets IT et transformation digitale (Accenture). Enseigne à l'Efrei depuis 2010.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="programmation">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Doc-Marciel-BARROS-PEREIRA-819x1024.jpg" alt="Photo de Marciel Barros Pereira" class="avatar-photo">
+                    <h3>Marciel Barros Pereira</h3>
+                    <p class="domaine">Réseaux de communication</p>
+                    <span class="matiere">Doctorant</span>
+                    <p>Doctorant de l'axe de recherche « Réseaux de communication » à l'Efrei Research Lab.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="programmation">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/12/BENKERMI-Imene--819x1024.jpg" alt="Photo de Imène Benkermi" class="avatar-photo">
+                    <h3>Imène Benkermi</h3>
+                    <p class="domaine">Systèmes Temps Réel</p>
+                    <span class="matiere">Enseignante</span>
+                    <p>Doctorat à l'Université de Rennes 1 en 2007, sur l'ordonnancement dans les Systèmes Temps Réel. Expérience significative dans l'industrie avant l'Efrei.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="maths">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/2570_CARLO-BIANCA--819x1024.jpg" alt="Photo de Carlo Bianca" class="avatar-photo">
+                    <h3>Carlo Bianca</h3>
+                    <p class="domaine">Mathématiques</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat (École Polytechnique de Turin, 2008). Prix INDAM-SIMAI meilleure thèse 2007-2009. HDR Paris Sorbonne 2015. Rejoint l'Efrei en 2023.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="maths">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/12/Felix-Baschenis-1024x701.png" alt="Photo de Félix Baschenis" class="avatar-photo">
+                    <h3>Félix Baschenis</h3>
+                    <p class="domaine">Mathématiques – Calculabilité &amp; Logique</p>
+                    <span class="matiere">Enseignant</span>
+                    <p>Agrégation en 2013, double cursus ENS de Cachan. Thèse en calculabilité-logique. Rejoint le département maths de l'Efrei en 2024.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="maths">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/2056-Zahraa-MOHSEN--819x1024.jpg" alt="Photo de Zahraa Mohsen" class="avatar-photo">
+                    <h3>Zahraa Mohsen</h3>
+                    <p class="domaine">Mathématiques</p>
+                    <span class="matiere">Enseignante-chercheuse</span>
+                    <p>Doctorat en 2022 à l'Université Paris Cité. Rejoint l'Efrei en 2023.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="maths">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/12/BENMERZOUK-Djamila.png" alt="Photo de Djamila Benmerzouk" class="avatar-photo">
+                    <h3>Djamila Benmerzouk</h3>
+                    <p class="domaine">Mathématiques appliquées</p>
+                    <span class="matiere">Maître de conférences</span>
+                    <p>Qualifiée section 26, doctorat d'État en mathématiques (Univ. Tlemcen, Algérie). Spécialité : systèmes de contrôle non linéaires.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Etienne-PERNOT-HD-1-1024x1024.jpg" alt="Photo de Etienne Pernot" class="avatar-photo">
+                    <h3>Etienne Pernot</h3>
+                    <p class="domaine">Directeur recherche et valorisation</p>
+                    <span class="matiere">Efrei Research Lab</span>
+                    <p>Ingénieur Polytechnique et Télécom Paris, docteur en mathématiques appliquées (Paris-Dauphine). Dirige l'Efrei Research Lab depuis 2021.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/10/HQ1A9212_katarzyna-757x1024.png" alt="Photo de Katarzyna Wegrzyn-Wolska" class="avatar-photo">
+                    <h3>Katarzyna Wegrzyn-Wolska</h3>
+                    <p class="domaine">Directrice adjointe Efrei Research Lab</p>
+                    <span class="matiere">Responsable axe Données et IA</span>
+                    <p>Doctorat en automatisation et informatique (MinesParisTech, 2001). HDR de l'Université du Val d'Essonne (2012).</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/chakchouk_faten-683x1024.jpg" alt="Photo de Faten Chaieb-chakchouk" class="avatar-photo">
+                    <h3>Faten Chaieb-chakchouk</h3>
+                    <p class="domaine">Image et Réalité Virtuelle – HDR</p>
+                    <span class="matiere">Professeure – Responsable Adjointe axe Données &amp; IA</span>
+                    <p>Diplôme ENSI (1998), doctorat (2009), habilitation (2016), HDR reconnue par Paris Panthéon-Assas (2022). Rejoint l'Efrei en 2020.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Layth-Sliman-2-1-1024x1024.jpg" alt="Photo de Layth Sliman" class="avatar-photo">
+                    <h3>Layth Sliman</h3>
+                    <p class="domaine">Sécurité, Résilience et Confiance Numérique</p>
+                    <span class="matiere">Professeur – Responsable axe</span>
+                    <p>Ingénieur informatique INSA Lyon. Doctorat en collaboration avec l'Université des Ryukyus (Japon). Rejoint l'Efrei en 2010.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Dario-VIEIRA-1-1024x1024.jpg" alt="Photo de Dario Vieira" class="avatar-photo">
+                    <h3>Dario Vieira</h3>
+                    <p class="domaine">Réseaux de Communication</p>
+                    <span class="matiere">Professeur associé – Responsable axe</span>
+                    <p>Doctorat en réseaux informatiques (Télécom &amp; Management SudParis). Référent Science Ouverte. Rejoint l'Efrei en 2010.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Elisabeth-COLIN-1-1-1024x1024.jpg" alt="Photo de Elizabeth Colin" class="avatar-photo">
+                    <h3>Elizabeth Colin</h3>
+                    <p class="domaine">Systèmes Embarqués Intelligents</p>
+                    <span class="matiere">Professeure associée – Responsable axe</span>
+                    <p>Doctorat en Électronique et Communications (Télécom Paris, 2003). Référente scientifique Sciences2024.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/HQ1A8669_Conteville-683x1024.jpg" alt="Photo de Laurie Conteville" class="avatar-photo">
+                    <h3>Laurie Conteville</h3>
+                    <p class="domaine">Systèmes Embarqués – Responsable majeure Robotique</p>
+                    <span class="matiere">Enseignante-chercheuse</span>
+                    <p>Doctorat en physique spécialité automatique (Univ. Paris-Saclay / L2S Centrale-Supélec, 2013). Rejoint l'Efrei en 2020.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/09/3005-Yvan-GUIFO-819x1024.jpg" alt="Photo de Yvan Guifo Fodjo" class="avatar-photo">
+                    <h3>Yvan Guifo Fodjo</h3>
+                    <p class="domaine">Informatique</p>
+                    <span class="matiere">Enseignant-chercheur</span>
+                    <p>Doctorat en Informatique en 2023 à la Sorbonne Université, équipe MoVe du LIP6. ATER pendant sa thèse.</p>
+                </article>
+
+                <article class="carte-enseignant" data-specialite="recherche">
+                    <img src="https://www.efrei.fr/wp-content/uploads/2025/12/Helen-Kassel.jpg" alt="Photo de Helen Kassel" class="avatar-photo">
+                    <h3>Helen Kassel</h3>
+                    <p class="domaine">Enseignante</p>
+                    <span class="matiere">Département Informatique</span>
+                    <p>Enseignante au département informatique de l'Efrei.</p>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h3>EFREI Informatique</h3>
+                <p>Département d'informatique de l'EFREI Paris, membre de Paris Panthéon-Assas Université.</p>
+                <p style="margin-top:0.5rem;">30-32 Avenue de la République<br>94800 Villejuif, France</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="enseignants.html">Équipe enseignante</a>
+                <a href="projets.html">Projets étudiants</a>
+                <a href="vie-etudiante.html">Vie étudiante</a>
+                <a href="contact.html">Contact</a>
+                <a href="apropos.html">À propos</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>info-dept@efrei.fr</p>
+                <p>01 23 45 67 89</p>
+                <p>Lun–Ven : 9h00–18h00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EFREI Paris – Département Informatique. Projet TI402 – Raphaël Derobien &amp; Sebastien Ramirez.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
