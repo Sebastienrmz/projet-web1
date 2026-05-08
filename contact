@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Département Informatique EFREI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/logo-efrei.png" alt="Logo EFREI Paris Panthéon-Assas Université" class="logo-img">
+                <h1>Département <span>Informatique</span></h1>
+            </div>
+            <nav>
+                <button class="burger" id="burger-btn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="enseignants.html">Équipe enseignante</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="vie-etudiante.html">Vie étudiante</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banniere">
+            <h1 class="anim-entree">Nous <span>contacter</span></h1>
+            <p class="anim-entree-2">Une question sur les formations ou la vie du département ? Écrivez-nous !</p>
+        </section>
+
+        <section class="section">
+            <div class="contact-grid">
+
+                <div class="formulaire-contact">
+                    <h2 style="color:var(--cyan);margin-bottom:1.5rem;font-size:1.3rem;">Envoyer un message</h2>
+                    <form id="formulaire-contact" novalidate>
+
+                        <div class="form-ligne">
+                            <div class="form-groupe">
+                                <label for="nom">Nom *</label>
+                                <input type="text" id="nom" name="nom" placeholder="Votre nom" autocomplete="family-name">
+                                <span class="msg-erreur" id="erreur-nom"></span>
+                            </div>
+                            <div class="form-groupe">
+                                <label for="prenom">Prénom *</label>
+                                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" autocomplete="given-name">
+                                <span class="msg-erreur" id="erreur-prenom"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-groupe">
+                            <label for="email">Adresse email *</label>
+                            <input type="email" id="email" name="email" placeholder="votre@email.fr" autocomplete="email">
+                            <span class="msg-erreur" id="erreur-email"></span>
+                        </div>
+
+                        <div class="form-groupe">
+                            <label for="sujet">Sujet</label>
+                            <select id="sujet" name="sujet">
+                                <option value="">-- Choisissez un sujet --</option>
+                                <option value="inscription">Inscription / Admission</option>
+                                <option value="formation">Contenu des formations</option>
+                                <option value="stage">Stage ou alternance</option>
+                                <option value="projet">Projet étudiant</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-groupe">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Votre message..."></textarea>
+                            <span class="msg-erreur" id="erreur-message"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width:100%;">Envoyer le message</button>
+
+                        <div class="msg-confirmation" id="msg-confirmation" role="alert">
+                            Votre message a bien été envoyé ! Nous vous répondrons dans les 48h.
+                        </div>
+                    </form>
+                </div>
+
+                <div class="info-contact">
+                    <h2 style="color:var(--cyan);margin-bottom:1.5rem;font-size:1.3rem;">Coordonnées du département</h2>
+                    <div class="info-item">
+                        <span class="icone">📍</span>
+                        <div><h4>Adresse</h4><p>30-32 Avenue de la République<br>94800 Villejuif, France</p></div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icone">📧</span>
+                        <div><h4>Email</h4><p>info-dept@efrei.fr<br>scolarite@efrei.fr</p></div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icone">📞</span>
+                        <div><h4>Téléphone</h4><p>01 23 45 67 89</p></div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icone">🕒</span>
+                        <div><h4>Horaires</h4><p>Lundi – Vendredi : 9h00 – 18h00</p></div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icone">🚇</span>
+                        <div><h4>Accès</h4><p>RER B – Villejuif Institut Gustave Roussy<br>Bus 131, 161, 162 – Arrêt EFREI</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h3>EFREI Informatique</h3>
+                <p>Département d'informatique de l'EFREI Paris, membre de Paris Panthéon-Assas Université.</p>
+                <p style="margin-top:0.5rem;">30-32 Avenue de la République<br>94800 Villejuif, France</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="enseignants.html">Équipe enseignante</a>
+                <a href="projets.html">Projets étudiants</a>
+                <a href="vie-etudiante.html">Vie étudiante</a>
+                <a href="contact.html">Contact</a>
+                <a href="apropos.html">À propos</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>info-dept@efrei.fr</p>
+                <p>01 23 45 67 89</p>
+                <p>Lun–Ven : 9h00–18h00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EFREI Paris – Département Informatique. Projet TI402 – Raphaël Derobien &amp; Sebastien Ramirez.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
