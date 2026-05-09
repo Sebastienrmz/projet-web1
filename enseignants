@@ -53,7 +53,7 @@
                 <button class="btn-filtre" data-filtre="recherche">Recherche</button>
             </div>
 
-            <div class="cartes-grid" id="grille-enseignants">
+            <div class="cartes-grid" id="grille-enseignants">   
 
                 <article class="carte-enseignant" data-specialite="ia">
                     <img src="https://www.efrei.fr/wp-content/uploads/2025/09/Gabis-Asma-683x1024.jpg" alt="Photo de Asma Gabis" class="avatar-photo">
