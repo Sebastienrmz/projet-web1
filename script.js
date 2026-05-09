@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         navMenu.querySelectorAll('a').forEach(function (l) {
             l.addEventListener('click', function () { navMenu.classList.remove('ouverte'); });
-        });
+        });   
     }
 
     // 2. Lien actif
