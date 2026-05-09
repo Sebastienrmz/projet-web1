@@ -8,7 +8,7 @@
     --blanc: #f8f9fa;
     --gris-clair: #e9ecef;
     --gris-texte: #adb5bd;
-    --ombre: 0 4px 20px rgba(0,0,0,0.3);
+    --ombre: 0 4px 20px rgba(0,0,0,0.3);  
     --rayon: 12px;
     --transition: all 0.3s ease;
 }
@@ -37,7 +37,7 @@ header {
     z-index: 100;
     box-shadow: var(--ombre);
 }
-.header-inner {
+.header-inner {   
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -66,7 +66,7 @@ nav ul li a:hover, nav ul li a.active { background: rgba(0,180,216,0.2); color: 
 .btn-violet:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(123,45,139,0.4); }
 
 .carte {
-    background: var(--bleu-profond);
+    background: var(--bleu-profond);  
     border: 1px solid rgba(0,180,216,0.2);
     border-radius: var(--rayon);
     padding: 1.8rem;
