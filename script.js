@@ -5,10 +5,11 @@ document.addEventListener('DOMContentLoaded', function () {
     var navMenu = document.getElementById('nav-menu');
     if (burger && navMenu) {
         burger.addEventListener('click', function () {
-            navMenu.classList.toggle('ouverte');
+            var opened = navMenu.classList.toggle('ouverte');
+            burger.setAttribute('aria-expanded', String(opened));
         });
         navMenu.querySelectorAll('a').forEach(function (l) {
-            l.addEventListener('click', function () { navMenu.classList.remove('ouverte'); });
+            l.addEventListener('click', function () { navMenu.classList.remove('ouverte'); burger.setAttribute('aria-expanded', 'false'); });
         });   
     }
 
@@ -116,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var email = document.getElementById('email');
             if (email) {
                 if (email.value.trim() === '') err('erreur-email', 'Veuillez entrer votre email.');
-                else if (!email.value.includes('@')) err('erreur-email', "L'email doit contenir un @.");
+                else if (!email.validity.valid) err('erreur-email', "Veuillez entrer une adresse email valide.");
             }
 
             var msg = document.getElementById('message');
