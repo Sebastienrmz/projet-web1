@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 var b = document.createElement('button');
                 b.classList.add('indicateur');
                 if (i === 0) b.classList.add('actif');
-                b.setAttribute('aria-label', 'Slide ' + (i + 1));
+                b.type = 'button';
+                b.setAttribute('aria-label', 'Actualité ' + (i + 1));
                 contInd.appendChild(b);
             }
         }
@@ -80,6 +81,21 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    document.querySelectorAll('.avatar-photo').forEach(function (photo) {
+        function replacePhoto() {
+            var name = photo.parentElement.querySelector('h3');
+            var placeholder = document.createElement('div');
+            placeholder.className = 'avatar';
+            placeholder.setAttribute('aria-hidden', 'true');
+            placeholder.textContent = name ? name.textContent.split(' ').map(function (part) {
+                return part.charAt(0);
+            }).slice(0, 2).join('') : '';
+            photo.replaceWith(placeholder);
+        }
+        photo.addEventListener('error', replacePhoto, { once: true });
+        if (photo.complete && !photo.naturalWidth) replacePhoto();
+    });
+
     // 6. Voir plus / voir moins (projets)
     document.querySelectorAll('.btn-voir-plus').forEach(function (btn) {
         btn.addEventListener('click', function () {
@@ -93,10 +109,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 7. Validation formulaire contact
     var form = document.getElementById('formulaire-contact');
+    var confirmationTimer;
     if (form) {
         form.addEventListener('submit', function (e) {
             e.preventDefault();
             var ok = true;
+            var firstInvalid = null;
+            var confirmation = document.getElementById('msg-confirmation');
+            if (confirmation) confirmation.style.display = 'none';
+            clearTimeout(confirmationTimer);
+            form.querySelectorAll('[aria-invalid]').forEach(function (field) {
+                field.removeAttribute('aria-invalid');
+            });
 
             document.querySelectorAll('.msg-erreur').forEach(function (el) {
                 el.style.display = 'none'; el.textContent = '';
@@ -105,6 +129,12 @@ document.addEventListener('DOMContentLoaded', function () {
             function err(id, msg) {
                 var el = document.getElementById(id);
                 if (el) { el.textContent = msg; el.style.display = 'block'; }
+                var field = document.getElementById(id.replace('erreur-', ''));
+                if (field) {
+                    field.setAttribute('aria-invalid', 'true');
+                    field.setAttribute('aria-describedby', id);
+                    if (!firstInvalid) firstInvalid = field;
+                }
                 ok = false;
             }
 
@@ -123,12 +153,14 @@ document.addEventListener('DOMContentLoaded', function () {
             var msg = document.getElementById('message');
             if (msg && msg.value.trim() === '') err('erreur-message', 'Veuillez écrire votre message.');
 
+            if (firstInvalid) firstInvalid.focus();
+
             if (ok) {
                 var conf = document.getElementById('msg-confirmation');
                 if (conf) {
                     conf.style.display = 'block';
                     form.reset();
-                    setTimeout(function () { conf.style.display = 'none'; }, 5000);
+                    confirmationTimer = setTimeout(function () { conf.style.display = 'none'; }, 5000);
                 }
             }
         });
