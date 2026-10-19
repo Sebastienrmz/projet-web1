@@ -24,9 +24,9 @@ Ouvrir ensuite `http://localhost:8000`.
 - `vie-etudiante.html` : événements et associations.
 - `contact.html` : validation du formulaire dans le navigateur.
 - `apropos.html` : présentation du travail du binôme.
-- `styles.css` et `script.js` : styles et interactions communes.
+- `css/styles.css` et `js/script.js` : styles et interactions communes.
 
-Les anciens fichiers sans extension sont conservés comme versions de travail ; ouvrir les fichiers `.html` pour consulter le site corrigé. La page `projets.html` et le logo local n'étaient pas fournis : les liens correspondants ont été retirés et le nom du département reste affiché en texte.
+Les anciennes copies sans extension ont été retirées pour éviter les doublons. La page `projets.html` et le logo local n'étaient pas fournis : les liens correspondants ont été retirés et le nom du département reste affiché en texte.
 
 ## Ce que nous avons travaillé
 
