@@ -4,6 +4,16 @@ Projet réalisé en binôme dans le cadre du cours TI402 – Programmation Web �
 
 Le site présente des formations, une équipe enseignante, la vie étudiante et un formulaire de contact. Il utilise HTML, CSS et JavaScript, sans framework.
 
+## Aperçu
+
+La page d'accueil sur ordinateur, une rubrique du site et la version mobile :
+
+![Accueil sur ordinateur](docs/captures/accueil.jpg)
+
+![Rubrique enseignants et filtre par spécialité](docs/captures/enseignants.jpg)
+
+<img src="docs/captures/mobile.jpg" alt="Accueil sur mobile" width="300">
+
 ## Ouvrir le site
 
 Télécharger le dépôt et ouvrir `index.html` dans un navigateur. Aucun outil de compilation n'est nécessaire.
