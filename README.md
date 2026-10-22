@@ -1,5 +1,11 @@
 # Site vitrine EFREI Informatique
 
+## Essayer dans le navigateur
+
+**[Ouvrir la démonstration](https://sebastienrmz.github.io/projet-web1/)**
+
+Aucune installation nécessaire. Essayer le carrousel de l’accueil, le filtre des enseignants et la validation du formulaire de contact. Le formulaire est une démonstration : aucun message n’est envoyé. Il s’agit d’un projet étudiant, pas du site officiel de l’EFREI.
+
 Projet réalisé en binôme dans le cadre du cours TI402 – Programmation Web à l'EFREI.
 
 Le site présente des formations, une équipe enseignante, la vie étudiante et un formulaire de contact. Il utilise HTML, CSS et JavaScript, sans framework.
