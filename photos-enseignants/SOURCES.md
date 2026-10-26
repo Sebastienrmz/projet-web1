@@ -1,0 +1,41 @@
+# Portraits des enseignants
+
+Photos provenant du site officiel de l’EFREI, déjà utilisées dans la maquette initiale. Elles sont stockées ici pour éviter les problèmes de chargement depuis un autre site.
+
+- [Photo de Asma Gabis](https://www.efrei.fr/wp-content/uploads/2025/09/Gabis-Asma-683x1024.jpg) : enseignant-01.jpg
+- [Photo de Malika Charrad](https://www.efrei.fr/wp-content/uploads/2025/09/DSC03693_Charrad-683x1024.jpg) : enseignant-02.jpg
+- [Photo de Djallel Dilmi](https://www.efrei.fr/wp-content/uploads/2025/09/2753-Djallel-Dilmi-1-819x1024.jpg) : enseignant-03.jpg
+- [Photo de Mohamad Ghassany](https://www.efrei.fr/wp-content/uploads/2025/09/GHASSANY-Mohamad_2-690x1024.jpg) : enseignant-04.jpg
+- [Photo de Khodor Hammoud](https://www.efrei.fr/wp-content/uploads/2025/09/Khodor-Hammoud-819x1024.jpg) : enseignant-05.jpg
+- [Photo de Ilyes Jenhani](https://www.efrei.fr/wp-content/uploads/2025/10/Photos-staff-9-1024x701.png) : enseignant-06.png
+- [Photo de Jean-Charles Huet](https://www.efrei.fr/wp-content/uploads/2025/09/HQ1A3112_jean-charles_huet-683x1024.jpg) : enseignant-07.jpg
+- [Photo de Daniel Mai](https://www.efrei.fr/wp-content/uploads/2025/10/Photos-staff-12-1024x701.png) : enseignant-08.png
+- [Photo de Mondher Maddouri](https://www.efrei.fr/wp-content/uploads/2025/09/3192-Mondher-Maddouri-819x1024.jpg) : enseignant-09.jpg
+- [Photo de Mano Joseph Mathew](https://www.efrei.fr/wp-content/uploads/2025/09/Mano-Joseph_large-660x1024.jpg) : enseignant-10.jpg
+- [Photo de Salim Nahle](https://www.efrei.fr/wp-content/uploads/2026/03/image.jpg) : enseignant-11.jpg
+- [Photo de Boussad Ait Salem](https://www.efrei.fr/wp-content/uploads/2025/09/721_Boussad_AIT-SALEM-683x1024.jpg) : enseignant-12.jpg
+- [Photo de Benoit Charroux](https://www.efrei.fr/wp-content/uploads/2025/09/Benoit-CHARROUX-R3-1-1024x1024.jpg) : enseignant-13.jpg
+- [Photo de Ralph Bou Nader](https://www.efrei.fr/wp-content/uploads/2025/10/Ralph-BOU-NADER-1024x1024.jpg) : enseignant-14.jpg
+- [Photo de Johannes Gomolka](https://www.efrei.fr/wp-content/uploads/2025/10/Johannes-Gomolka-1024x1024.jpg) : enseignant-15.jpg
+- [Photo de Youssef Ait El Mahjoub](https://www.efrei.fr/wp-content/uploads/2025/09/2301_-Youssef-AIT-EL-MAHJOUB.jpg) : enseignant-16.jpg
+- [Photo de Marwa Harzi](https://www.efrei.fr/wp-content/uploads/2025/09/Harzi-Marwa-683x1024.jpg) : enseignant-17.jpg
+- [Photo de Mohamed Hamidi](https://www.efrei.fr/wp-content/uploads/2025/09/3195-Mohamed-Hamidi-819x1024.jpg) : enseignant-18.jpg
+- [Photo de Mourad Kmimech](https://www.efrei.fr/wp-content/uploads/2025/09/655-Mourad-Kmimech-683x1024.jpg) : enseignant-19.jpg
+- [Photo de Cherifa Ben Khelil](https://www.efrei.fr/wp-content/uploads/2025/09/3048-Cherifa-BEN-KHELIL-819x1024.jpg) : enseignant-20.jpg
+- [Photo de Nicolas Flasque](https://www.efrei.fr/wp-content/uploads/2025/12/Flasque-Nicolas.jpg) : enseignant-21.jpg
+- [Photo de Jacques Augustin](https://www.efrei.fr/wp-content/uploads/2025/12/jacques-augustin.jpg) : enseignant-22.jpg
+- [Photo de Marciel Barros Pereira](https://www.efrei.fr/wp-content/uploads/2025/09/Doc-Marciel-BARROS-PEREIRA-819x1024.jpg) : enseignant-23.jpg
+- [Photo de Imène Benkermi](https://www.efrei.fr/wp-content/uploads/2025/12/BENKERMI-Imene--819x1024.jpg) : enseignant-24.jpg
+- [Photo de Carlo Bianca](https://www.efrei.fr/wp-content/uploads/2025/09/2570_CARLO-BIANCA--819x1024.jpg) : enseignant-25.jpg
+- [Photo de Félix Baschenis](https://www.efrei.fr/wp-content/uploads/2025/12/Felix-Baschenis-1024x701.png) : enseignant-26.png
+- [Photo de Zahraa Mohsen](https://www.efrei.fr/wp-content/uploads/2025/09/2056-Zahraa-MOHSEN--819x1024.jpg) : enseignant-27.jpg
+- [Photo de Djamila Benmerzouk](https://www.efrei.fr/wp-content/uploads/2025/12/BENMERZOUK-Djamila.png) : enseignant-28.png
+- [Photo de Etienne Pernot](https://www.efrei.fr/wp-content/uploads/2025/09/Etienne-PERNOT-HD-1-1024x1024.jpg) : enseignant-29.jpg
+- [Photo de Katarzyna Wegrzyn-Wolska](https://www.efrei.fr/wp-content/uploads/2025/10/HQ1A9212_katarzyna-757x1024.png) : enseignant-30.png
+- [Photo de Faten Chaieb-chakchouk](https://www.efrei.fr/wp-content/uploads/2025/09/chakchouk_faten-683x1024.jpg) : enseignant-31.jpg
+- [Photo de Layth Sliman](https://www.efrei.fr/wp-content/uploads/2025/09/Layth-Sliman-2-1-1024x1024.jpg) : enseignant-32.jpg
+- [Photo de Dario Vieira](https://www.efrei.fr/wp-content/uploads/2025/09/Dario-VIEIRA-1-1024x1024.jpg) : enseignant-33.jpg
+- [Photo de Elizabeth Colin](https://www.efrei.fr/wp-content/uploads/2025/09/Elisabeth-COLIN-1-1-1024x1024.jpg) : enseignant-34.jpg
+- [Photo de Laurie Conteville](https://www.efrei.fr/wp-content/uploads/2025/09/HQ1A8669_Conteville-683x1024.jpg) : enseignant-35.jpg
+- [Photo de Yvan Guifo Fodjo](https://www.efrei.fr/wp-content/uploads/2025/09/3005-Yvan-GUIFO-819x1024.jpg) : enseignant-36.jpg
+- [Photo de Helen Kassel](https://www.efrei.fr/wp-content/uploads/2025/12/Helen-Kassel.jpg) : enseignant-37.jpg
