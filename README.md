@@ -46,7 +46,7 @@ Ouvrir ensuite `http://localhost:8000`.
 
 La navigation mobile, le carrousel, le filtrage des enseignants et les messages d'erreur du formulaire sont gérés en JavaScript. La mise en page utilise Flexbox, Grid et des media queries.
 
-Le formulaire est une démonstration : il ne transmet aucun message et ne possède pas de serveur. Le site est un projet étudiant, pas le site officiel de l'école. Certaines photos utilisent des liens externes ; les informations de la maquette et les coordonnées n'ont pas été actualisées ni vérifiées.
+Le formulaire est une démonstration : il ne transmet aucun message et ne possède pas de serveur. Le site est un projet étudiant, pas le site officiel de l'école. Les 37 portraits des enseignants sont conservés dans `photos-enseignants/`, avec leurs liens de provenance dans `SOURCES.md`. Les autres photos peuvent utiliser des liens externes ; les informations de la maquette et les coordonnées n'ont pas été actualisées ni vérifiées.
 
 ## Répartition du travail
 
